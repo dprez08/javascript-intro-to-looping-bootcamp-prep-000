@@ -23,7 +23,8 @@ function doWhileLoop(array) {
     Math.random() >= 0.5
   }
   do {
-    array.pop()
+    array.pop();
+    while 
   }
   
 }
