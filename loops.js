@@ -23,13 +23,13 @@ function doWhileLoop(array) {
     return Math.random() >= 0.5
   }
   do {
-    array.pop();
+    array.pop();{
     while (array.length >1 && maybeTrue());
     return array;
 }
 
 
-+function doWhileLoop(array) {
+[+function doWhileLoop(array) {
  +  function maybeTrue() {
  +    return Math.random() >= 0.5
  +  }
@@ -38,4 +38,4 @@ function doWhileLoop(array) {
  +    array.pop();
  +  } while (array.length > -1 && maybeTrue());
  +    return array;
- +}
+ +}]
